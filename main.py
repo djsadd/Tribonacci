@@ -2,7 +2,7 @@
 N = int(input())
 
 
-def get_balakirev(n):
+def get_tribonacci(n):
     start = 1
     step = 1
     middle = 1
@@ -17,7 +17,7 @@ def get_balakirev(n):
             start = z
 
 
-a = get_balakirev(N)
+a = get_tribonacci(N)
 
 for j in a:
     print(j, end=' ')
